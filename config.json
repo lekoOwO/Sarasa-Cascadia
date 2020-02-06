@@ -1,152 +1,41 @@
 {
-	"familyOrder": ["gothic", "ui", "mono", "monoT", "term"],
+	"familyOrder": ["cascadia"],
 	"families": {
-		"gothic": {
-			"isMono": false,
-			"latinGroup": "noto-sans",
-			"naming": {
-				"en_US": "Sarasa Gothic",
-				"zh_CN": "更纱黑体",
-				"zh_TW": "更紗黑體",
-				"zh_HK": "更紗黑體",
-				"ja_JP": "更紗ゴシック",
-				"ko_KR": "사라사 고딕"
-			}
-		},
-		"ui": {
-			"isPWID": true,
-			"isMono": false,
-			"latinGroup": "noto-sans",
-			"naming": {
-				"en_US": "Sarasa UI",
-				"zh_CN": "更纱黑体 UI",
-				"zh_TW": "更紗黑體 UI",
-				"zh_HK": "更紗黑體 UI",
-				"ja_JP": "更紗ゴシック UI",
-				"ko_KR": "사라사 고딕 UI"
-			}
-		},
-		"mono": {
+		"cascadia": {
 			"isMono": true,
-			"latinGroup": "iosevka",
-			"naming": {
-				"en_US": "Sarasa Mono",
-				"zh_CN": "等距更纱黑体",
-				"zh_TW": "等距更紗黑體",
-				"zh_HK": "等距更紗黑體",
-				"ja_JP": "更紗等幅ゴシック",
-				"ko_KR": "사라사 고정 폭고딕"
-			}
-		},
-		"monoT": {
-			"isMono": true,
-			"isType": true,
-			"latinGroup": "iosevka",
-			"naming": {
-				"en_US": "Sarasa Mono T",
-				"zh_CN": "等距更纱黑体 T",
-				"zh_TW": "等距更紗黑體 T",
-				"zh_HK": "等距更紗黑體 T",
-				"ja_JP": "更紗等幅ゴシック T",
-				"ko_KR": "사라사 고정 폭고딕 T"
-			}
-		},
-		"term": {
-			"isMono": true,
-			"latinGroup": "iosevka-term",
+			"latinGroup": "cascadia-code",
 			"isTerm": true,
 			"naming": {
-				"en_US": "Sarasa Term",
-				"zh_CN": "Sarasa Term",
-				"zh_TW": "Sarasa Term",
-				"zh_HK": "Sarasa Term",
-				"ja_JP": "Sarasa Term",
-				"ko_KR": "Sarasa Term"
+				"en_US": "Sarasa Cascadia",
+				"zh_TW": "更紗黑體 Cascadia"
 			}
 		}
 	},
 	"styleOrder": [
-		"extralight",
-		"extralightitalic",
-		"light",
-		"lightitalic",
-		"regular",
-		"italic",
-		"semibold",
-		"semibolditalic",
-		"bold",
-		"bolditalic"
+		"regular"
 	],
 	"styles": {
-		"extralight": { "name": "Extralight" },
-		"extralightitalic": {
-			"name": "Extralight Italic",
-			"uprightStyleMap": "extralight"
-		},
-		"light": { "name": "Light" },
-		"lightitalic": {
-			"name": "Light Italic",
-			"uprightStyleMap": "light"
-		},
-		"regular": { "name": "Regular" },
-		"italic": {
-			"name": "Italic",
-			"uprightStyleMap": "regular"
-		},
-		"semibold": { "name": "Semibold" },
-		"semibolditalic": {
-			"name": "Semibold Italic",
-			"uprightStyleMap": "semibold"
-		},
-		"bold": { "name": "Bold" },
-		"bolditalic": {
-			"name": "Bold Italic",
-			"uprightStyleMap": "bold"
-		}
+		"regular": { "name": "Regular" }
 	},
 
-	"subfamilyOrder": ["cl", "sc", "tc", "hc", "j", "k"],
+	"subfamilyOrder": [ "tc"],
 	"subfamilies": {
-		"cl": { "name": "CL" },
-		"sc": { "name": "SC" },
-		"tc": { "name": "TC" },
-		"hc": { "name": "HC" },
-		"j": { "name": "J" },
-		"k": { "name": "K" }
+		"tc": { "name": "TC" }
 	},
 	"os2encodings": {
-		"J": { "gbk": false, "big5": false, "jis": true, "korean": false },
-		"SC": { "gbk": true, "big5": false, "jis": false, "korean": false },
-		"TC": { "gbk": false, "big5": true, "jis": false, "korean": false },
-		"HC": { "gbk": false, "big5": true, "jis": false, "korean": false },
-		"CL": { "gbk": false, "big5": true, "jis": false, "korean": false },
-		"K": { "gbk": false, "big5": false, "jis": false, "korean": true }
+		"TC": { "gbk": false, "big5": true, "jis": false, "korean": false }
 	},
 	"nameTupleSelector": {
-		"J": ["en_US", "ja_JP"],
-		"K": ["en_US", "ko_KR"],
-		"SC": ["en_US", "zh_CN"],
-		"TC": ["en_US", "zh_TW"],
-		"HC": ["en_US", "zh_HK"],
-		"CL": ["en_US", "zh_TW"]
+		"TC": ["en_US", "zh_TW"]
 	},
 	"copyright": "Copyright 2015-2019, Renzhi Li (a.k.a. Belleve Invis, belleve@typeof.net). Portions Copyright © 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. Portions Copyright 2012 Google Inc.",
 
 	"shsSourceMap": {
 		"region": {
-			"j": "SourceHanSans",
-			"k": "SourceHanSansK",
-			"cl": "SourceHanSansK",
-			"sc": "SourceHanSansSC",
-			"tc": "SourceHanSansTC",
-			"hc": "SourceHanSansHC"
+			"tc": "SourceHanSansTC"
 		},
 		"style": {
-			"extralight": "ExtraLight",
-			"light": "Light",
-			"regular": "Regular",
-			"semibold": "Medium",
-			"bold": "Bold"
+			"regular": "Regular"
 		}
 	}
 }
